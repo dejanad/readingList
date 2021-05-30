@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- <style>.help {cursor: help;}</style> -->
+
+    <link href="http://fonts.cdnfonts.com/css/menlo" rel="stylesheet">
+
+  </head>
+  <body>
+    
+  <style>
+    .scroll-left {
+     height: 90px;	
+     overflow: hidden;
+     position: relative;
+     font-size: 3em;
+     background: #64FF0D;
+     color: #1930FF;
+     
+     /* border: 1px solid orange; */
+    }
+    .scroll-left p {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 85px;
+     text-align: center;
+    
+     /* Starting position */
+     transform:translateX(100%);
+     /* Apply animation to this element */
+     animation: scroll-left 15s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @keyframes scroll-left {
+     0%   {
+     transform: translateX(100%); 		
+     }
+     100% {
+     transform: translateX(-100%); 
+     }
+    }
+    </style>
+
+
+    
+    <div class="scroll-left" id='overlay'>
+    <p class="BookType">some useful resources</p>
+    </div>
+  
+
+
+  <script src="sketch.js"></script>
+
+  <div class="head">
+    <h4 id='overlay'><a href="https://patents.google.com/patent/US10061977B1/en ">Snapchat Patent</a></h4>
+    <h5 id='overlay'><a href="https://www.youtube.com/watch?v=kq0VO1FqE6I" target="_blank">Lex Fridman Podcast</a></h5>
+    
+    
+    <h6 id='overlay'><a href="https://ssrn.com/abstract=3281765">Racial Influence on Automated Perceptions of Emotions</a></h6>
+    
+    <h7 id='overlay'><a href="https://link.springer.com/article/10.1007/s13347-020-00415-6" target="_blank">The Whiteness of AI</a></h7>
+    <h8><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjUwdiGivLwAhUfCGMBHabuCU8QFjABegQICBAD&url=https%3A%2F%2Fiopn.library.illinois.edu%2Fjournals%2Fmedian%2Farticle%2Fdownload%2F360%2F294%2F1435&usg=AOvVaw1are1vGrOvvppGdD5z2-ym" target="_blank">How AI manufactures a smile</a></h8>
+    <h9><a href="https://www.bbc.co.uk/news/technology-57101248" target="_blank">AI emotion-detection software tested on Uyghurs</a></h9>
+    <h10><a href="https://www.bbc.co.uk/news/technology-57101248">back</a></h10>
+  
+  </div> 
+
+  
+  
+
+</body></html>
+
+
+
+</head>
+
+

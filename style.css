@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #d3d3d3;
+  font-family: 'Menlo', sans-serif;
+  max-width: 100%;
+	overflow-x: hidden;
+	/* background: #7c00ff; */
+    /* color: #FFCA0D; */
+    border-radius: 0 0 5px 0;
+    box-shadow: 5px 3px 10px hsl(0deg 0% 100% / 60%);
+    position: fixed;
+    z-index: 50000;
+    top: 0;
+    left: 0;
+	/* border-bottom: 10px solid #000; */
+	
+
+
+}
+canvas {
+  display: block;
+}
+
+/* unvisited link */
+a {
+	color: #1930FF;
+	text-decoration: none;
+  }
+
+/* mouse over link */
+a:hover {
+	color: #FFFC00;
+  }
+
+@font-face {
+	font-family: "BookType";
+	src: url(BookType.otf);
+	}
+p.BookType {
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	}
+
+/* text for link buttons */
+h4{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	top:50px;
+	left: 90px;
+	z-index:3;
+	
+  }
+  h5{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	top:120px;
+	left: 90px;
+	z-index:3;
+  }
+
+  h6{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	left: 90px;
+	top:175px;
+	z-index:3;
+  }
+
+  h7{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	left: 90px;
+	top:385px;
+	z-index:3;
+  }
+
+  h8{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	left: 90px;
+	top:480px;
+	z-index:3;
+  }
+
+  h9{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	left: 90px;
+	top:575px;
+	z-index:3;
+  }
+
+  h10{
+	font-family: 'BookType', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:50px;
+	color: #1930FF;
+	position:absolute;
+	left: 90px;
+	top:770px;
+	z-index:3;
+  }

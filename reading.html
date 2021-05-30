@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- <style>.help {cursor: help;}</style> -->
+
+    <link href="http://fonts.cdnfonts.com/css/menlo" rel="stylesheet">
+
+  </head>
+  <body>
+    
+  <style>
+    .scroll-left {
+     height: 90px;	
+     overflow: hidden;
+     position: relative;
+     font-size: 3em;
+     background: #64FF0D;
+     color: #1930FF;
+     
+     /* border: 1px solid orange; */
+    }
+    .scroll-left p {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 85px;
+     text-align: center;
+    
+     /* Starting position */
+     transform:translateX(100%);
+     /* Apply animation to this element */
+     animation: scroll-left 15s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @keyframes scroll-left {
+     0%   {
+     transform: translateX(100%); 		
+     }
+     100% {
+     transform: translateX(-100%); 
+     }
+    }
+    </style>
+
+
+    
+    <div class="scroll-left" id='overlay'>
+    <p class="BookType">want to find out more? </p>
+    </div>
+  
+
+
+  <script src="sketch.js"></script>
+
+  <div class="head">
+    <h4><a href="https://justadudewhohacks.github.io/face-api.js/webcam_face_expression_recognition" target="_blank">smile here</a></h4>
+    <h5 id='overlay'><a href="reading.html">reading list</a></h5>
+    <h6 id='overlay'><a href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=156c284904f14edf8617765fdd2ecc42&metadata=01" target="_blank">filter</a></h6>
+  </div> 
+
+  
+  
+
+</body></html>
+
+
+
+</head>
+
+
